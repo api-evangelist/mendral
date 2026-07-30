@@ -1,8 +1,26 @@
 aid: mendral
 name: Mendral
-description: Mendral is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Mendral, Inc. is the AI DevOps Engineer — three always-on agents for security,
+  reliability, and performance, plus custom automations for any DevOps work specific to
+  your stack. Built by the team behind Docker and Dagger (founders Sam Alba and Andrea
+  Luzzardi), Mendral installs as a GitHub App and reads your CI/CD logs to review dependency
+  PRs, pin safe package versions, surface exploitable CVEs, diagnose CI failures, fix flaky
+  tests, and cut build times. It integrates with GitHub Actions, AWS, Google Cloud, Datadog,
+  and Sentry, and ships a command-line client for browsing and triaging insights from the
+  terminal or a coding agent. Y Combinator Winter 2026; based in San Francisco.
 url: https://raw.githubusercontent.com/api-evangelist/mendral/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://mendral.com/og?title=Mendral
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +29,65 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- DevOps
+- CI/CD
+- Security
+- Artificial Intelligence
+- Platform Engineering
+- Automation
+- Developer Tools
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/mendral-domain-security.yml
+- type: Website
+  url: https://mendral.com
+- type: Blog
+  url: https://mendral.com/blog
+- type: BlogRSS
+  url: https://mendral.com/api/rss.xml
+- type: Pricing
+  url: https://mendral.com/pricing
+- type: SignUp
+  url: https://app.mendral.com
+- type: Login
+  url: https://app.mendral.com
+- type: TermsOfService
+  url: https://mendral.com/terms
+- type: PrivacyPolicy
+  url: https://mendral.com/privacy
+- type: Support
+  url: https://mendral.com/contact
+- type: GitHubOrganization
+  url: https://github.com/mendral-ai
+- type: StatusPage
+  url: https://status.mendral.com
+- type: Security
+  url: https://mendral.com/security
+- type: Compliance
+  url: https://mendral.com/security
+- type: TrustCenter
+  url: https://compliance.mendral.com/
+- type: CLI
+  url: cli/mendral-cli.yml
+- type: Packages
+  url: packages/mendral-packages.yml
+- type: Lifecycle
+  url: lifecycle/mendral-lifecycle.yml
+- type: VulnerabilityDisclosure
+  url: security/mendral-vulnerability-disclosure.yml
+- type: Conformance
+  url: conformance/mendral-conformance.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 7
+  pass: local-v1
