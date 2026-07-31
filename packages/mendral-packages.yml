@@ -1,0 +1,17 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/mendral-ai/mendral-cli
+packages:
+- language: shell
+  registry: homebrew
+  name: mendral
+  tap: mendral-ai/tap
+  url: https://github.com/mendral-ai/homebrew-tap
+  install: brew install mendral-ai/tap/mendral
+  official: true
+  kind: cli
+  platforms: [macos, linux, windows]
+  note: >-
+    First-party Mendral CLI. Also distributed as prebuilt binaries from the
+    GitHub releases page (macOS, Linux, Windows). No language client SDK is
+    published; the CLI is the only distributed package.

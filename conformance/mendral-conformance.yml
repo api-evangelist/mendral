@@ -1,0 +1,22 @@
+generated: '2026-07-20'
+method: searched
+source: https://mendral.com/security
+standards:
+- id: soc2-type-ii
+  conforms: true
+  evidence: >-
+    SOC 2 Type II examination by MJD Advisors, LLC covering Security,
+    Availability, and Confidentiality (report period 2025-10-15 to 2026-01-15);
+    report available under NDA via https://compliance.mendral.com/.
+- id: iso-27001
+  conforms: false
+- id: pci-dss
+  conforms: false
+- id: hipaa
+  conforms: false
+- id: fedramp
+  conforms: false
+notes: >-
+  Mendral publishes no public API/OpenAPI, so cross-cutting API standards
+  (oauth2, oidc, rfc9457, json:api, pagination) are not assertable. Conformance
+  here reflects the published organizational security/compliance posture.

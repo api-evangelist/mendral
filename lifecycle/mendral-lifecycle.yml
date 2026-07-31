@@ -1,0 +1,25 @@
+generated: '2026-07-20'
+method: searched
+source: https://status.mendral.com
+status_page: https://status.mendral.com
+status_provider: incident.io
+monitored_components:
+- Website
+- Dashboard
+- Agent
+versioning:
+  scheme: unknown
+  note: >-
+    Mendral is delivered as a hosted SaaS + GitHub App and a versioned CLI
+    (github.com/mendral-ai/mendral-cli). No public API versioning policy is
+    published.
+deprecation:
+  policy_url: null
+  sunset_header: false
+  note: No public deprecation/sunset policy published (no public developer API).
+sla:
+  url: null
+  note: >-
+    SOC 2 Type II report covers Availability; formal SLA available under NDA via
+    security@mendral.com.
+deprecated_operations: []

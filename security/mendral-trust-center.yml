@@ -1,0 +1,23 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+url: https://compliance.mendral.com/
+source: https://mendral.com/security
+certifications:
+- SOC 2 Type II
+soc2:
+  type: Type II
+  auditor: MJD Advisors, LLC
+  scope: [Security, Availability, Confidentiality]
+  report_period: '2025-10-15 to 2026-01-15'
+  cadence: annual audit with continuous examinations
+  access: report available under NDA via the Trust Center
+resources:
+- Security questionnaires
+- Data Processing Agreements (DPA)
+- Compliance materials on request (security@mendral.com)
+evidence:
+- source: https://mendral.com/security
+  keywords: [soc 2 type ii, trust center, mjd advisors, confidentiality]
+- source: https://compliance.mendral.com/
+  keywords: [trust center]

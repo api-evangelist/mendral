@@ -1,0 +1,32 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/mendral-ai/mendral-cli
+name: mendral
+description: >-
+  Command-line interface for Mendral — AI-powered software delivery insights.
+  Browse, triage, and implement fixes for CI/CD issues detected by Mendral,
+  directly from your terminal or a coding agent.
+repo: https://github.com/mendral-ai/mendral-cli
+install:
+- method: homebrew
+  command: brew install mendral-ai/tap/mendral
+- method: binary
+  command: Download from the GitHub releases page (macOS, Linux, Windows)
+authentication:
+  command: mendral auth login
+  note: Authenticates against your Mendral account.
+output_formats: [human-table, json, jq]
+commands:
+- name: auth
+  description: Authentication management (login, logout, status).
+- name: insight
+  description: Insight operations — CI/CD issues detected by Mendral.
+  subcommands: [list, view, search]
+- name: skill
+  description: >-
+    Install a Mendral skill for coding agents/editors (Claude Code, Cursor) so
+    the agent can browse and act on Mendral insights.
+key_flows:
+- Authenticate the terminal with mendral auth login.
+- List and search detected CI/CD insights with mendral insight list/search.
+- Inspect and implement a fix from the terminal or a connected coding agent.
