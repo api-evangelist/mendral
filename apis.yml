@@ -9,6 +9,17 @@ description: Mendral, Inc. is the AI DevOps Engineer — three always-on agents 
   and Sentry, and ships a command-line client for browsing and triaging insights from the
   terminal or a coding agent. Y Combinator Winter 2026; based in San Francisco.
 url: https://raw.githubusercontent.com/api-evangelist/mendral/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
