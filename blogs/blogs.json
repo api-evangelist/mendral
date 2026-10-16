@@ -9,6 +9,12 @@
       "method": "none"
     },
     {
+      "source": "https://mendral.com/api/rss.xml",
+      "feed_url": "https://mendral.com/api/rss.xml",
+      "saved": 0,
+      "error": "no_feed_no_posts"
+    },
+    {
       "source": "https://mendral.com",
       "feed_url": "https://mendral.com",
       "title": "",
@@ -17,5 +23,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
